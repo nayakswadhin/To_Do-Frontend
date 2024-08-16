@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "myfont";
+    font-weight: 400;
+    src: url("/fonts/myfont.ttf") format("truetype");
+  }
+}
